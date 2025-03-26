@@ -1,0 +1,83 @@
+.margenes{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.row{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0 ;
+}
+.rojo{
+    background-color: rgb(236, 236, 236);"
+}
+.fondoblanco{
+    background-color: rgb(239, 239, 246);
+}
+.fondonegro{
+    background-color: black;
+}
+.texto{
+    color: aliceblue;
+}
+.fuente{
+    font-size: 65%;
+    color: aliceblue;
+}
+img{
+    width: 100%;
+}
+.margen3{
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+.margen4{
+    margin-left: 20px; /* Cambia el valor según lo necesites */
+    justify-content: center;
+    margin
+}
+.margen5{
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 100px;
+}
+.margin6{
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+.container {
+    text-align: center;
+    border: 2px solid transparent; /* Para imitar el borde colorido */
+    padding: 20px;
+    background: white;
+    background-clip: padding-box;
+}
+.main-text {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px; /* Ajusta según necesites */
+    color: black;
+}
+.description {
+    font-family: Arial, sans-serif;
+    font-weight: 300; /* Fuente más ligera */
+    font-size: 18px; /* Tamaño más grande */
+    color: #808080; /* Gris claro */
+    margin: 10px 0;
+}
+.keywords {
+ font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    opacity: 0.7; /* Estilo más sutil */
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
